@@ -5,7 +5,7 @@ public class question2 {
 	public static void main(String[] args) {
 
 		String name="Faruk";
-		int birthYear=1999;
+		final int birthYear=1999;
 		int currentYear=java.time.Year.now().getValue();
 		int age=currentYear-birthYear;
 		
