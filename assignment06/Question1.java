@@ -22,8 +22,8 @@ public class Question1 {
 		
 		for(int i=1; i<=13 ; i++) {
 			
-			if(i<=7) { k=i;		  }			
-			else 	 { k=7-(i%7); }
+			if(i<=7) { k=i;		}			
+			else 	 { k=7-(i%7);	}
 			
 			for(int j=1; j<=k; j++){
 				System.out.print(j+" ");
