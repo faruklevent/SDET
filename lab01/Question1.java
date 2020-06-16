@@ -15,9 +15,12 @@ public class Question1 {
 
 	public static void stringTimes(String str, int times) {
 
-		for(int j=1; j<=times; j++) {
-			System.out.print(str);
+		String s="";
+		
+		for(int i=1; i<=times; i++) {
+			s=s+str;
 		}
+		System.out.print(s);
 	}
 
 }
